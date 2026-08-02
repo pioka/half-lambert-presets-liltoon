@@ -1,0 +1,15 @@
+{
+  "name": "io.github.pioka.generic-pbr-like-preset-liltoon",
+  "displayName": "Generic PBR-like Preset for lilToon",
+  "version": "0.1.0",
+  "description": "lilToon 向けの汎用PBR調プリセット集です。肌・布地・硬質・半透過の4種のプリセットを追加します。",
+  "unity": "2022.3",
+  "author": {
+    "name": "pioka",
+    "url": "https://github.com/pioka"
+  },
+  "license": "MIT",
+  "vpmDependencies": {
+    "jp.lilxyzw.liltoon": ">=2.0.0"
+  }
+}

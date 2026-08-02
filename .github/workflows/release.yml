@@ -1,0 +1,25 @@
+name: Release
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main'
+
+    permissions:
+      contents: write
+
+    runs-on: ubuntu-latest
+    steps:
+      - id: checkout
+        uses: actions/checkout@v4
+
+      - id: create_release
+        run: ./.github/scripts/create_release.sh
+        env:
+          GH_TOKEN: ${{ github.token }}
