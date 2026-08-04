@@ -1,8 +1,8 @@
 {
-  "name": "io.github.pioka.generic-pbr-like-preset-liltoon",
-  "displayName": "Generic PBR-like Preset for lilToon",
+  "name": "io.github.pioka.half-lambert-presets-liltoon",
+  "displayName": "Half-Lambert Presets for lilToon",
   "version": "0.1.0",
-  "description": "lilToon 向けの汎用PBR調プリセット集です。肌・布地・硬質・半透過の4種のプリセットを追加します。",
+  "description": "Valve が初代 Half-Life で用いた Half-Lambert シェーディングを lilToon に移植したプリセット集です。hL と hL² の2種を追加します。",
   "unity": "2022.3",
   "author": {
     "name": "pioka",
