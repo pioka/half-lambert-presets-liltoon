@@ -1,7 +1,7 @@
 {
   "name": "io.github.pioka.half-lambert-presets-liltoon",
   "displayName": "Half-Lambert Presets for lilToon",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Valve が初代 Half-Life で用いた Half-Lambert シェーディングを lilToon に移植したプリセット集です。hL と hL² の2種を追加します。",
   "unity": "2022.3",
   "author": {
