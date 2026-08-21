@@ -15,7 +15,8 @@ PACKAGE_ZIP="${PACKAGE_NAME}-${PACKAGE_VERSION}.zip"
 GIT_TAG="v${PACKAGE_VERSION}"
 
 # check tag exists
-if git ls-remote --tags origin | cut -f2 | grep -qF "refs/tags/$GIT_TAG"; then
+# refspec で完全一致させる (部分一致だと v0.3.0 が v0.3.0-dev に誤ヒットする)
+if [[ -n "$(git ls-remote --tags origin "refs/tags/$GIT_TAG")" ]]; then
   echo "ERROR: tag:$GIT_TAG already exists on repository. Update version on package.json."
   exit 1
 fi
