@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 330d117753a947947bf5a4f237b9a9f3, type: 3}
-  m_Name: half-lambert-squared
+  m_Name: half-lambert
   m_EditorClassIdentifier: 
   bases:
   - language: Japanese
-    name: Half-Lambert影 汎用 (hL²近似)
+    name: Half-Lambert影
   category: 6
   renderingMode: 
   shader: {fileID: 0}
