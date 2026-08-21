@@ -1,7 +1,7 @@
 # Half-Lambert Presets for lilToon
 [![](https://img.shields.io/badge/Add_to-VCC-%230f91a9)](https://pioka.github.io/vpm-listing/)
 
-Valve が初代 Half-Life で用いた Half-Lambert シェーディングを lilToon に移植したプリセット集です。hL と hL² の2種を追加します。
+Valve が初代 Half-Life で用いた Half-Lambert シェーディングを lilToon に移植したプリセット集です。hL² を追加します。
 
 ## 特徴
 本プリセットが変更するのは **ライティングと影に関するプロパティのみ** です。
@@ -26,7 +26,7 @@ lilToon 2.0.0 以降が必要です。
 | プリセット名 | 用途 |
 | --- | --- |
 | Half-Lambert影 汎用 (hL²近似) | 大抵のものに適用できる汎用プリセット |
-| Half-Lambert影 半透過 (hL) | 髪などの半透過オブジェクト向けプリセット |
+| Half-Lambert影 汎用 (hL²近似) 用 逆光ライト | 上記に重ねて適用し、輪郭に逆光のハイライトを加えるプリセット |
 
 ## ライセンス
 
