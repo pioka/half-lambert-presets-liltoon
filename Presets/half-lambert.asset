@@ -52,7 +52,7 @@ MonoBehaviour:
   - name: _UseShadow
     value: 1
   - name: _ShadowStrength
-    value: 0.7105
+    value: 0.9319
   - name: _ShadowNormalStrength
     value: 1
   - name: _ShadowBorder
