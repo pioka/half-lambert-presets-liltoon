@@ -89,7 +89,7 @@ R チャンネルの増分 +0.245 は、[ADR 0007](0007-fix-shadow-strength-gamm
 - **ADR 0007 の誤差表は `_ShadowBorderColor` = `(0, 0, 0, 1)` を前提とした値である。**
 - 両プリセット（`half-lambert.asset` / `half-lambert-with-backlight.asset`）に共通する。
 - プリセットの asset ファイルは変更しないため、リリース対象は README のみ。
-  挙動の変更を伴わないので、`0.3.0-dev` に含めても独立したパッチとして出してもよい。
+  挙動の変更を伴わないが、ADR 0007 / ADR 0008 と同じ `0.4.0` に含める。
 
 ## 再検討の条件
 
