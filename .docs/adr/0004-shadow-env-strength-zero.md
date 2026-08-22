@@ -1,6 +1,6 @@
 # ADR 0004: _ShadowEnvStrength を 0 にする
 
-- ステータス: 承認済み
+- ステータス: [ADR 0008](0008-shadow-env-strength-one.md) により置き換え
 - 日付: 2026-08-22
 
 ## 背景
