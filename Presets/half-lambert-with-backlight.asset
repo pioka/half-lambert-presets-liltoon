@@ -62,7 +62,7 @@ MonoBehaviour:
   - name: _ShadowReceive
     value: 1
   - name: _ShadowEnvStrength
-    value: 1
+    value: 0.55
   - name: _ShadowMainStrength
     value: 0
   - name: _UseBacklight

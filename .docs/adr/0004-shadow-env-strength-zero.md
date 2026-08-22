@@ -1,6 +1,6 @@
 # ADR 0004: _ShadowEnvStrength を 0 にする
 
-- ステータス: [ADR 0008](0008-shadow-env-strength-one.md) により置き換え
+- ステータス: [ADR 0008](0008-shadow-env-strength-one.md) により置き換え（現行の決定は [ADR 0010](0010-shadow-env-strength-under-light-max-limit.md)）
 - 日付: 2026-08-22
 
 ## 背景

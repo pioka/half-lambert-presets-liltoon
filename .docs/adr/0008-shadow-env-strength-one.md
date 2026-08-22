@@ -1,8 +1,13 @@
 # ADR 0008: _ShadowEnvStrength を 1.0 にする
 
-- ステータス: 承認済み
+- ステータス: [ADR 0010](0010-shadow-env-strength-under-light-max-limit.md) により置き換え
 - 日付: 2026-08-22
 - 置き換え対象: [ADR 0004](0004-shadow-env-strength-zero.md)
+
+> **注記:** 本 ADR の導出は `_LightMaxLimit` によるライト色のクランプを考慮しておらず、
+> 結論の `_ShadowEnvStrength` = `1.0` は誤りである。正しい値と導出は
+> [ADR 0010](0010-shadow-env-strength-under-light-max-limit.md) を参照。
+> 環境光をランプで減衰させるべきではないという本 ADR の問題提起自体は有効である。
 
 ## 背景
 
