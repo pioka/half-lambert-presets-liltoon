@@ -1,6 +1,6 @@
 # ADR 0002: hL² 近似の切片オフセットを _ShadowColor から _ShadowStrength へ移す
 
-- ステータス: 承認済み
+- ステータス: [ADR 0011](0011-shadow-offset-back-to-shadow-color.md) により置き換え
 - 日付: 2026-08-22
 
 ## 背景
