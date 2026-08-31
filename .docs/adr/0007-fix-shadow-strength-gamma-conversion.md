@@ -1,6 +1,9 @@
 # ADR 0007: _ShadowStrength を 0.9319 に修正する
 
-- ステータス: 承認済み
+- ステータス: [ADR 0011](0011-shadow-offset-back-to-shadow-color.md) により置き換え
+  （本 ADR のガンマ変換の分析と誤差表は引き続き有効。置き換わるのは切片オフセットを
+  `_ShadowStrength` に載せるという配置の決定のみで、`_ShadowColor` = `0.2895` という
+  値そのものが本 ADR の分析から導かれている）
 - 日付: 2026-08-22
 
 ## 背景
