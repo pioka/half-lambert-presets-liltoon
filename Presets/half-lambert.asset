@@ -23,8 +23,6 @@ MonoBehaviour:
   outlineMainTex: 0
   tessellation: -1
   floats:
-  - name: _LightMinLimit
-    value: 0.05
   - name: _LightMaxLimit
     value: 1
   - name: _AsUnlit
@@ -32,8 +30,6 @@ MonoBehaviour:
   - name: _VertexLightStrength
     value: 1
   - name: _MonochromeLighting
-    value: 0
-  - name: _BlendOpFA
     value: 0
   - name: _Main2ndEnableLighting
     value: 1
