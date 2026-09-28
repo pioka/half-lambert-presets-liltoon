@@ -33,6 +33,8 @@ MonoBehaviour:
     value: 1
   - name: _MonochromeLighting
     value: 0
+  - name: _BlendOpFA
+    value: 0
   - name: _Main2ndEnableLighting
     value: 1
   - name: _Main3rdEnableLighting

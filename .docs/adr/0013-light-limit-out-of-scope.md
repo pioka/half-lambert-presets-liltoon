@@ -1,6 +1,6 @@
 # ADR 0013: `_LightMinLimit` / `_BlendOpFA` をプリセットの管理対象から外す
 
-- ステータス: `_LightMinLimit` に関する部分は [ADR 0014](0014-restore-light-min-limit.md) により置き換え
+- ステータス: [ADR 0014](0014-restore-light-limit.md) により置き換え
 - 日付: 2026-09-23
 - 対象: `Presets/half-lambert.asset`
 
