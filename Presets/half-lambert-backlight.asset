@@ -23,6 +23,8 @@ MonoBehaviour:
   outlineMainTex: 0
   tessellation: -1
   floats:
+  - name: _UseRim
+    value: 0
   - name: _UseBacklight
     value: 1
   - name: _BacklightMainStrength
