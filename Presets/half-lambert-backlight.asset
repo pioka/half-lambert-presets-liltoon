@@ -23,6 +23,8 @@ MonoBehaviour:
   outlineMainTex: 0
   tessellation: -1
   floats:
+  - name: _UseRim
+    value: 0
   - name: _UseBacklight
     value: 1
   - name: _BacklightMainStrength
@@ -30,9 +32,9 @@ MonoBehaviour:
   - name: _BacklightNormalStrength
     value: 1
   - name: _BacklightBorder
-    value: 0.42
+    value: 0.4375
   - name: _BacklightBlur
-    value: 0.16
+    value: 0.125
   - name: _BacklightDirectivity
     value: 5
   - name: _BacklightViewStrength
